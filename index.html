@@ -17,9 +17,6 @@
         which can be achieved using tools like ngrok or by hosting Jenkins on a server with a public IP. 
         In Jenkins, create a new freestyle project or pipeline and configure it to trigger builds using the "GitHub hook trigger for GITScm polling" option. 
         Next, navigate to your GitHub repository, go to Settings → Webhooks, and click on "Add webhook". 
-        Enter the Jenkins webhook URL in the Payload URL field (e.g., http://your-jenkins-url/github-webhook/) and set the content type to application/json. 
-        Choose the trigger events—usually “Just the push event.” Once saved, GitHub will send a test payload to Jenkins. 
-        If configured correctly, a push to the repository will automatically trigger a Jenkins build, completing the webhook integration and enabling continuous integration.
     </p>
 
 </body>
